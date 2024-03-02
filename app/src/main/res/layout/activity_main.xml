@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg"/>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to ZenSayings"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonRandomQuotes"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:id="@+id/btnOpenZenQuotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open ZenQuotes.io"
+        android:layout_below="@id/btnSettings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/buttonDailyQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quote of the day"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonRandomQuotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random Quotes"
+        android:layout_below="@id/buttonDailyQuote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
