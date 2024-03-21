@@ -10,7 +10,11 @@ ZenQuotes is a minimalist Android application that provides users with daily and
 
 ## Demo Pictures
 
+Menu
+
 ![Screenshot 2024-03-21 194641](https://github.com/RipClaw15/ZenQuotes/assets/34399989/7b988b3e-4e07-4b63-8436-b9b9d449f836)
+
+Daily Quote
 
 ![Screenshot 2024-03-21 194704](https://github.com/RipClaw15/ZenQuotes/assets/34399989/f6ad446d-220b-4bbb-a72c-1294538ccfa6)
 
